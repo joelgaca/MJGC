@@ -13,6 +13,9 @@
 		C992375322B86992003F3CDA /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992375222B86991003F3CDA /* UserTableViewCell.swift */; };
 		C992375722B86F91003F3CDA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C992375622B86F91003F3CDA /* MapKit.framework */; };
 		C992375922B871E0003F3CDA /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C992375822B871DF003F3CDA /* MapaViewController.swift */; };
+		C9B76DCE22D2F9BE00F63F78 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B76DCD22D2F9BE00F63F78 /* MoreViewController.swift */; };
+		C9B76DD022D2FA7900F63F78 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B76DCF22D2FA7900F63F78 /* Task.swift */; };
+		C9B76DD222D2FAEC00F63F78 /* VistaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B76DD122D2FAEC00F63F78 /* VistaViewController.swift */; };
 		C9D17FEB22B47C590082B0DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D17FEA22B47C590082B0DE /* AppDelegate.swift */; };
 		C9D17FED22B47C590082B0DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D17FEC22B47C590082B0DE /* ViewController.swift */; };
 		C9D17FF022B47C590082B0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D17FEE22B47C590082B0DE /* Main.storyboard */; };
@@ -53,6 +56,9 @@
 		C992375222B86991003F3CDA /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		C992375622B86F91003F3CDA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C992375822B871DF003F3CDA /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		C9B76DCD22D2F9BE00F63F78 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		C9B76DCF22D2FA7900F63F78 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C9B76DD122D2FAEC00F63F78 /* VistaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaViewController.swift; sourceTree = "<group>"; };
 		C9D17FE722B47C590082B0DE /* Practica 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D17FEA22B47C590082B0DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D17FEC22B47C590082B0DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +162,8 @@
 				C9D17FF922B47C5C0082B0DE /* Info.plist */,
 				C9D17FF122B47C590082B0DE /* Practica_6.xcdatamodeld */,
 				C992375822B871DF003F3CDA /* MapaViewController.swift */,
+				C9B76DCD22D2F9BE00F63F78 /* MoreViewController.swift */,
+				C9B76DD122D2FAEC00F63F78 /* VistaViewController.swift */,
 			);
 			path = "Practica 6";
 			sourceTree = "<group>";
@@ -183,6 +191,7 @@
 			children = (
 				C9DC46F922B48A6F00A58283 /* UserModel.swift */,
 				C931FA5122D06E54003EB5BC /* LoginController.swift */,
+				C9B76DCF22D2FA7900F63F78 /* Task.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -430,8 +439,11 @@
 				C992375922B871E0003F3CDA /* MapaViewController.swift in Sources */,
 				C9D17FEB22B47C590082B0DE /* AppDelegate.swift in Sources */,
 				C9DC46FA22B48A6F00A58283 /* UserModel.swift in Sources */,
+				C9B76DD222D2FAEC00F63F78 /* VistaViewController.swift in Sources */,
 				C9D17FF322B47C590082B0DE /* Practica_6.xcdatamodeld in Sources */,
+				C9B76DCE22D2F9BE00F63F78 /* MoreViewController.swift in Sources */,
 				C992375322B86992003F3CDA /* UserTableViewCell.swift in Sources */,
+				C9B76DD022D2FA7900F63F78 /* Task.swift in Sources */,
 				C931FA5222D06E54003EB5BC /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

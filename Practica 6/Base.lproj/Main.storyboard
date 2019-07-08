@@ -285,7 +285,7 @@ Incluye aspectos necesarios para el desarrollo de social de las personas como so
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="activities_icon"/>
                                 <connections>
-                                    <segue destination="dS0-Lp-9yN" kind="show" id="i81-gQ-beu"/>
+                                    <segue destination="479-ns-Mfd" kind="show" id="z3v-cb-GNN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cursos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBs-Cs-RHV">
@@ -664,37 +664,37 @@ En este curso podrás adquirir los elementos para crear un sitio web y asegurar 
             <point key="canvasLocation" x="463.768115942029" y="-1195.3125"/>
         </scene>
         <!--More View Controller-->
-        <scene sceneID="RYF-2T-Bc1">
+        <scene sceneID="FYs-sK-msE">
             <objects>
-                <viewController id="oCt-dk-i24" customClass="MoreViewController" customModule="Practica_6" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fhb-DR-ROF">
+                <viewController id="h3U-JF-lY8" customClass="MoreViewController" customModule="Practica_3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="USu-aZ-Chd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nueva Tarea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krw-xi-Mzl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nueva Tarea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmg-yU-xPa">
                                 <rect key="frame" x="143" y="123" width="139" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Agrega la tarea" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jAa-mK-SGb">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Agrega la tarea" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8rb-WF-xRF">
                                 <rect key="frame" x="150" y="203" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUH-uR-b3u">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUl-rL-FcR">
                                 <rect key="frame" x="171" y="549" width="73" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Agregar"/>
                                 <connections>
-                                    <action selector="addTask:" destination="oCt-dk-i24" eventType="touchUpInside" id="EzE-Pn-ay9"/>
+                                    <action selector="addTask:" destination="h3U-JF-lY8" eventType="touchUpInside" id="Y2m-ai-h1n"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Sdh-RM-mj1">
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0oM-I6-O9I">
                                 <rect key="frame" x="5" y="305" width="414" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <date key="date" timeIntervalSinceReferenceDate="582164203.48166597">
@@ -703,45 +703,45 @@ En este curso podrás adquirir los elementos para crear un sitio web y asegurar 
                             </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Qew-TX-nUG"/>
+                        <viewLayoutGuide key="safeArea" id="4t5-fl-DSV"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="hCQ-WH-M6G"/>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="Ph7-FU-L7v"/>
                     <connections>
-                        <outlet property="datePicker" destination="Sdh-RM-mj1" id="grF-fo-Lmc"/>
-                        <outlet property="txtTask" destination="jAa-mK-SGb" id="wgH-AT-LI0"/>
+                        <outlet property="datePicker" destination="0oM-I6-O9I" id="yYq-Ma-oBs"/>
+                        <outlet property="txtTask" destination="8rb-WF-xRF" id="zrp-Kb-yNV"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="237-cG-STE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O6y-hS-CmW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="839" y="1507"/>
+            <point key="canvasLocation" x="600" y="1224"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="klf-Af-QzS">
+        <!--Vista View Controller-->
+        <scene sceneID="9CK-Nr-364">
             <objects>
-                <viewController id="dS0-Lp-9yN" customClass="ViewController" customModule="Practica_6" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QhP-VX-FXY">
+                <viewController id="aef-c5-yJ1" customClass="VistaViewController" customModule="Practica_6" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l03-gM-bV5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FFh-hv-Ydv">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PGh-YX-Nap">
                                 <rect key="frame" x="8" y="60" width="398" height="753"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="task" textLabel="StT-fE-dOD" detailTextLabel="s5S-SX-13D" style="IBUITableViewCellStyleSubtitle" id="0ND-lc-Pz4" userLabel="Task">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="task" textLabel="iuU-Vv-P3x" detailTextLabel="sSq-xg-t0d" style="IBUITableViewCellStyleSubtitle" id="EVq-mu-3xw" userLabel="Task">
                                         <rect key="frame" x="0.0" y="28" width="398" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0ND-lc-Pz4" id="Zbz-4Q-jke">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EVq-mu-3xw" id="tN4-eW-lW1">
                                             <rect key="frame" x="0.0" y="0.0" width="398" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="StT-fE-dOD">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iuU-Vv-P3x">
                                                     <rect key="frame" x="20" y="5" width="33.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s5S-SX-13D">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sSq-xg-t0d">
                                                     <rect key="frame" x="20" y="25.5" width="44" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -756,21 +756,39 @@ En este curso podrás adquirir los elementos para crear un sitio web y asegurar 
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="FFh-hv-Ydv" firstAttribute="leading" secondItem="bf8-l7-yWt" secondAttribute="leading" constant="8" id="6W7-xr-1fo"/>
-                            <constraint firstItem="FFh-hv-Ydv" firstAttribute="top" secondItem="bf8-l7-yWt" secondAttribute="top" constant="8" id="WnY-kI-fZW"/>
-                            <constraint firstItem="bf8-l7-yWt" firstAttribute="trailing" secondItem="FFh-hv-Ydv" secondAttribute="trailing" constant="8" id="cYK-AL-szJ"/>
-                            <constraint firstItem="bf8-l7-yWt" firstAttribute="bottom" secondItem="FFh-hv-Ydv" secondAttribute="bottom" constant="8" id="fXW-8f-5LR"/>
+                            <constraint firstItem="PGh-YX-Nap" firstAttribute="leading" secondItem="jka-HH-Emd" secondAttribute="leading" constant="8" id="3dv-cQ-8pr"/>
+                            <constraint firstItem="jka-HH-Emd" firstAttribute="bottom" secondItem="PGh-YX-Nap" secondAttribute="bottom" constant="8" id="kYt-0x-Cc0"/>
+                            <constraint firstItem="PGh-YX-Nap" firstAttribute="top" secondItem="jka-HH-Emd" secondAttribute="top" constant="8" id="kr5-ht-4f1"/>
+                            <constraint firstItem="jka-HH-Emd" firstAttribute="trailing" secondItem="PGh-YX-Nap" secondAttribute="trailing" constant="8" id="x2N-od-0Iu"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="bf8-l7-yWt"/>
+                        <viewLayoutGuide key="safeArea" id="jka-HH-Emd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="phv-xg-jfo"/>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="H4F-yo-RmT"/>
                     <connections>
-                        <outlet property="tableView" destination="FFh-hv-Ydv" id="zfU-GZ-CfH"/>
+                        <outlet property="tableView" destination="PGh-YX-Nap" id="NIL-ee-IX3"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OJ5-0e-u9O" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ySs-4d-wMd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-32" y="848"/>
+            <point key="canvasLocation" x="599" y="562"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="HkF-Uf-UFD">
+            <objects>
+                <tabBarController id="479-ns-Mfd" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ieH-h0-V8e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="aef-c5-yJ1" kind="relationship" relationship="viewControllers" id="Ypr-Lc-MHs"/>
+                        <segue destination="h3U-JF-lY8" kind="relationship" relationship="viewControllers" id="8cb-nE-wRk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UdC-hc-sEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-410" y="644"/>
         </scene>
     </scenes>
     <resources>
